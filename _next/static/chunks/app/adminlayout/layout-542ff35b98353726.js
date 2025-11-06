@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[91],{3329:(e,s,t)=>{Promise.resolve().then(t.bind(t,8201))},8201:(e,s,t)=>{"use strict";t.r(s),t.d(s,{default:()=>r});var n=t(5155),u=t(2115);function r(e){let{children:s}=e,[t,r]=(0,u.useState)(!0);return(0,n.jsx)("div",{children:"AdminLayout"})}}},e=>{e.O(0,[441,964,358],()=>e(e.s=3329)),_N_E=e.O()}]);
