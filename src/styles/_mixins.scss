@@ -1,0 +1,59 @@
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin centerVertical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+@mixin flexLeft {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+@mixin flexRight {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@mixin backgoundImageCenter {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@mixin mainBackgroundColor {
+  background: #000000;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(38, 0, 0, 1) 64%);
+}
+
+@mixin paragraph_size {
+ font-size: clamp(0.95rem, 1.2vw + 0.2rem, 1.2rem);
+  line-height: 1.6;
+}
+@mixin paragraph_sizeV2 {
+  font-size: clamp(0.85rem, 1vw + 0.2rem, 1.05rem);
+  line-height: 1.5;
+}
+@mixin paragraph_sizeV2 {
+  font-size: clamp(0.85rem, 1vw + 0.2rem, 1.05rem);
+  line-height: 1.5;
+}
+
+@mixin title_size {
+    font-size: clamp(2rem, 4vw, 4rem);
+    line-height: 1.2;
+}
+@mixin title_sizeV2 {
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    line-height: 1.2;
+}

@@ -1,0 +1,60 @@
+@use "@/styles/variables" as *;
+@use "@/styles/mixins" as *;
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 70px);
+    text-align: center;
+    padding: 2rem;
+    @include mainBackgroundColor;
+
+
+    h1 {
+        @include title_size;
+        color: $primary-white;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+
+    p {
+
+        color: $primary-white;
+        max-width: 400px;
+        @include paragraph_size;
+    }
+}
+
+.progressBar {
+    width: 200px;
+    height: 8px;
+    background-color: #eee;
+    border-radius: 4px;
+    overflow: hidden;
+
+    .progress {
+        width: 33%;
+        height: 100%;
+        background-color: #007bff;
+        animation: pulse 1.5s infinite;
+    }
+}
+
+/* Pulse animation for progress bar */
+@keyframes pulse {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
