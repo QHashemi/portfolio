@@ -6,7 +6,7 @@ import background from "@assets/images/showcase-bg.jpg";
 
 export default function Section01() {
   return (
-    <section className={styles.section01} style={{ backgroundImage: `url(${background.src})`, position: "relative" }}>
+    <section className={styles.section01} >
 
       <div className={styles.overlay2}></div>
 
