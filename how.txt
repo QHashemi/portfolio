@@ -1,0 +1,4 @@
+rm -rf out
+npm run build
+touch out/.nojekyll
+npm run deploy

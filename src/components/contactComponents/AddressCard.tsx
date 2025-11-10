@@ -10,7 +10,7 @@ export default function AddressCard() {
       </div>
       <div className={styles.icon_text}>
         <strong>Address</strong>
-        <p>Brucknerstarße 7a /7, 4320 Perg</p>
+        <p>Austria, Oberösterreich, Linz, 4320 Perg</p>
       </div>
 
     </div>

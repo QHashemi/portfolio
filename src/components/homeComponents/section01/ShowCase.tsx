@@ -13,9 +13,10 @@ export default function ShowCase() {
             <span>IT-Administrator</span>
           </h1>
           <p>
-            Bridging code and infrastructure — building scalable web applications,
-            maintaining secure networks, and ensuring smooth, reliable performance across systems.
-            Passionate about automation, cloud technologies, and crafting solutions that make a difference.
+            Bridging code and infrastructure, IT administration and full-stack development combine to create scalable, secure systems and applications that power the digital world.<br />
+            The harmony between maintaining reliable networks and building dynamic web solutions ensures smooth performance across platforms.<br />
+            Automation, cloud technologies, and innovative software practices amplify efficiency and resilience, shaping the way people and organizations interact with technology.<br />
+            Together, these disciplines drive progress, unlock new possibilities, and have a lasting impact on the ever-evolving world of technology.
           </p>
           <div className={styles.actions}>
             <button className={styles.primary}><Link href="/about">About Me</Link></button>

@@ -25,11 +25,15 @@
   align-items: center;
 }
 
-@mixin backgoundImageCenter {
+@mixin backgroundImageCenter($url, $fallbackColor: #000) {
+  background-color: $fallbackColor;
+  background-image: url(#{$url});
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
 
 @mixin mainBackgroundColor {
   background: #000000;
