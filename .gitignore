@@ -7,7 +7,7 @@
 
 # production
 /build
-out
+/out
 
 # env files (keep sensitive data out of git)
 /.env*
