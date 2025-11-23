@@ -25,7 +25,7 @@ app = FastAPI(
 )
 
 # core 
-origins = ["http://127.0.0.1:3000", "http://localhost:3000"]
+origins = ["http://127.0.0.1:3000", "http://localhost:3000","https://portfolio-lid4.onrender.com"]
 
 app.add_middleware(
     CORSMiddleware,
