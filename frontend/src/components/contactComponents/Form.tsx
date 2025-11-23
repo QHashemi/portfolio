@@ -4,7 +4,7 @@ import styles from "./style.module.scss"
 import { Button, Group, Textarea, TextInput } from '@mantine/core'
 import { notifications } from '@mantine/notifications';
 import { useForm } from '@mantine/form';
-import { useContact } from '@/contexts/contactContext';
+import { useContact } from '@/contexts/contact/contactContext';
 export default function Form() {
 
     const { sendEmail, resetState, state } = useContact()

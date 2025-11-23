@@ -1,4 +1,4 @@
-import { ContactProvider } from '@/contexts/contactContext'
+import { ContactProvider } from '@/contexts/contact/contactContext'
 import React from 'react'
 
 export default function ContactLayout({ children }: { children: React.ReactNode }) {

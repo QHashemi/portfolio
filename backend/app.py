@@ -49,10 +49,10 @@ app.include_router(user_raouter, prefix="/user", tags=["user"])
 
 
 # Multimodel
-llm_provider = ProvideLLM(model="llava:7b")
+# llm_provider = ProvideLLM(model="llava:7b")
 
-prompt, llm = llm_provider.provide_llm()
-add_routes(app, prompt | llm, path="/llm")
+# prompt, llm = llm_provider.provide_llm()
+# add_routes(app, prompt | llm, path="/llm")
 
 if __name__=="__main__":
     uvicorn.run(app=app, host="0.0.0.0", port=5000)
