@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,8955,t=>{"use strict";var e=t.i(43476),i=t.i(71645);function u({children:t}){let[u,o]=(0,i.useState)(!0);return(0,e.jsx)("div",{children:"AdminLayout"})}t.s(["default",()=>u])}]);
